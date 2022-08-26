@@ -1,0 +1,85 @@
+html{
+	background-color: rgb(19, 219, 176);
+	font-family: "Calibri";
+}
+
+
+
+
+h1{
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+.info,.score{
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
+.box{
+	box-shadow: 3px 3px 3px black;
+	transition: 0.5s ease;
+	border: 1px solid rgb(41, 29, 29);
+	color: white;
+	background-color: rgb(0, 27, 85);
+	text-align: center;
+	display: grid;
+	align-items: center;
+	place-items: center;
+}
+
+.box:hover{
+	transition: 0.5s ease;
+	color: black;
+	background-color: white;
+	border-color: rgb(0, 17, 255);
+}
+
+
+.game-container{
+	width: 100%;
+}
+
+
+.grid-container{
+	display: grid;
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
+
+}
+
+
+.cont{
+	font-weight: bold;
+}
+
+.cont:hover{
+	color: black;
+}
+
+.btn{
+	font-family: Calibri;
+	font-size: 1.2em;
+	color: white;
+	padding: 5px 10px;
+	background-color: rgb(41, 41, 250);
+	box-shadow: 4px 4px 4px  rgb(10, 90, 73);
+	border: 1px solid transparent;
+	border-radius: 8px;
+	margin-top: 15px;
+
+}
+
+
+.btn:hover
+{
+	background-color: white;
+	color: rgb(0, 0, 0);
+}
